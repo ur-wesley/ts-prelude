@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Functional prelude for TypeScript — Option, Result, pattern matching, and scope utilities",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "AGENTS.md",
