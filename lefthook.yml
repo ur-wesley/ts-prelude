@@ -1,0 +1,18 @@
+pre-push:
+  parallel: true
+  jobs:
+    - name: typecheck
+      run: bun run typecheck
+    - name: format
+      run: bun run format:check
+    - name: lint
+      run: bun run lint
+    - name: test
+      run: bun run test
+    - name: build-and-bundle
+      run: bun run build && bun run bundle-check
+
+pre-commit:
+  jobs:
+    - name: format
+      run: bun run format:check
