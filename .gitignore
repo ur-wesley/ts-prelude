@@ -1,0 +1,6 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+scripts/bundle-out/
+scripts/bundle-fixtures/

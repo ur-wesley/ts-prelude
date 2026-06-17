@@ -1,0 +1,120 @@
+{
+  "name": "@ur-wesley/ts-prelude",
+  "version": "0.1.0",
+  "description": "Functional prelude for TypeScript — Option, Result, pattern matching, and scope utilities",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "AGENTS.md",
+    "llms.txt",
+    "README.md",
+    ".cursor/skills/ts-prelude"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./result": {
+      "types": "./dist/result/index.d.ts",
+      "import": "./dist/result/index.js"
+    },
+    "./option": {
+      "types": "./dist/option/index.d.ts",
+      "import": "./dist/option/index.js"
+    },
+    "./match": {
+      "types": "./dist/match/index.d.ts",
+      "import": "./dist/match/index.js"
+    },
+    "./pipe": {
+      "types": "./dist/pipe/index.d.ts",
+      "import": "./dist/pipe/index.js"
+    },
+    "./data/*": {
+      "types": "./dist/data/*.d.ts",
+      "import": "./dist/data/*.js"
+    },
+    "./iter": {
+      "types": "./dist/iter/index.d.ts",
+      "import": "./dist/iter/index.js"
+    },
+    "./interop": {
+      "types": "./dist/interop/index.d.ts",
+      "import": "./dist/interop/index.js"
+    },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/types/index.js"
+    },
+    "./scope": {
+      "types": "./dist/scope/index.d.ts",
+      "import": "./dist/scope/index.js"
+    },
+    "./record": {
+      "types": "./dist/record/index.d.ts",
+      "import": "./dist/record/index.js"
+    },
+    "./async": {
+      "types": "./dist/async/index.d.ts",
+      "import": "./dist/async/index.js"
+    },
+    "./resource": {
+      "types": "./dist/resource/index.d.ts",
+      "import": "./dist/resource/index.js"
+    },
+    "./log": {
+      "types": "./dist/log/index.d.ts",
+      "import": "./dist/log/index.js"
+    },
+    "./config": {
+      "types": "./dist/config/index.d.ts",
+      "import": "./dist/config/index.js"
+    },
+    "./lazy": {
+      "types": "./dist/lazy/index.d.ts",
+      "import": "./dist/lazy/index.js"
+    },
+    "./wire": {
+      "types": "./dist/wire/index.d.ts",
+      "import": "./dist/wire/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint --type-aware --type-check --tsconfig tsconfig.lint.json",
+    "lint:fix": "oxlint --type-aware --type-check --tsconfig tsconfig.lint.json --fix",
+    "format": "oxfmt \"src/**/*.ts\" \"tests/**/*.ts\" \"scripts/**/*.ts\" \"*.config.ts\"",
+    "format:check": "oxfmt --check \"src/**/*.ts\" \"tests/**/*.ts\" \"scripts/**/*.ts\" \"*.config.ts\"",
+    "bundle-check": "bun scripts/bundle-check.ts",
+    "check": "bun run typecheck && bun run format:check && bun run lint && bun run test && bun run build && bun run bundle-check",
+    "prepare": "lefthook install"
+  },
+  "dependencies": {
+    "consola": "^3.4.2",
+    "neverthrow": "^8.2.0",
+    "remeda": "^2.39.0",
+    "ts-pattern": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@vitest/coverage-v8": "^4.1.9",
+    "esbuild": "^0.28.1",
+    "lefthook": "^1.13.0",
+    "oxfmt": "^0.55.0",
+    "oxlint": "^1.70.0",
+    "oxlint-tsgolint": "^0.23.0",
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  }
+}

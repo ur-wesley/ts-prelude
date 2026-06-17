@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "noEmit": true,
+    "lib": ["ES2022", "ESNext.Disposable"],
+    "types": ["vitest/globals", "bun"]
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*.test.ts",
+    "scripts/**/*.ts",
+    "*.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts/bundle-out",
+    "scripts/bundle-fixtures"
+  ]
+}
