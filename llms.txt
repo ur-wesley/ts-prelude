@@ -1,0 +1,35 @@
+# @ur-wesley/ts-prelude
+
+> Functional prelude for TypeScript — Option, Result, pattern matching, scope utilities, and tree-shakeable data helpers. Composes neverthrow, ts-pattern, and remeda.
+
+## Docs
+
+- [AGENTS.md](AGENTS.md): Guide for AI assistants using this library (imports, patterns, anti-patterns)
+- [README.md](README.md): Human cookbook with Rust/Kotlin → TypeScript examples
+- [.cursor/skills/ts-prelude/SKILL.md](.cursor/skills/ts-prelude/SKILL.md): Cursor Agent Skill — full library usage guide (copy or link into your project's `.cursor/skills/`)
+
+## Install
+
+```bash
+bun add @ur-wesley/ts-prelude
+```
+
+Use subpath imports (`@ur-wesley/ts-prelude/option`, etc.). Root export is `VERSION` only.
+
+## Modules
+
+- option: Tagged-union Option with map, andThen, filter, orElse, zip, flatten
+- result: neverthrow Result re-exports plus traverse, traverseOption, combineWithAllErrors, map2, runCatching, pipeResult helpers
+- match: ts-pattern match plus R/O helpers for Result and Option
+- scope: Kotlin let/run/apply/also/with, ifSome/ifOk guards, takeIf, require
+- iter: Lazy iterator combinators (flatMap, skip, enumerate, chain, first, last)
+- pipe: pipe, flow, tap, dbg, pipeResult (remeda pipe + local helpers)
+- log: consola logger — prefer over console.log
+- interop: fromNullable, toOption, toResult bridges
+- types: brand, refine, tag, assertNever, NonEmptyArray ops (head, map, append)
+- record: copy, update, updatePath for immutable records
+- async: retry, withTimeout, race, parallel, asyncTraverse, lazyAsync for ResultAsync
+- resource: defer, usingResource, using, usingAsync for Disposable cleanup
+- lazy: lazy, once memoization
+- config: defineConfig, loadConfig, string, number, boolean, enum_, optional — typesafe env loading
+- data/*: One remeda function per subpath (filter, map, groupBy, pick, omit, partition, uniqueBy, sortBy, find, reduce, range, zip, chunk)
