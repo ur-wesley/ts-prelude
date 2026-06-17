@@ -1,0 +1,1740 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "label": "option-only.js",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_b",
+      "label": "b()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_x",
+      "label": "x()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_v",
+      "label": "v()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_u",
+      "label": "U()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_q",
+      "label": "Q()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_constructor",
+      "label": "constructor()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_fromsafepromise",
+      "label": "fromSafePromise()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_frompromise",
+      "label": "fromPromise()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_fromthrowable",
+      "label": "fromThrowable()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_combine",
+      "label": "combine()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_combinewithallerrors",
+      "label": "combineWithAllErrors()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_map",
+      "label": "map()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_andthrough",
+      "label": "andThrough()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_andtee",
+      "label": "andTee()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_ortee",
+      "label": "orTee()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_maperr",
+      "label": "mapErr()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_andthen",
+      "label": "andThen()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_orelse",
+      "label": "orElse()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_match",
+      "label": "match()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_unwrapor",
+      "label": "unwrapOr()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_safeunwrap",
+      "label": "safeUnwrap()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_then",
+      "label": "then()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_symbol_asynciterator",
+      "label": "[Symbol.asyncIterator]()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_y",
+      "label": "Y()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_s",
+      "label": "S()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_r",
+      "label": "r",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_e",
+      "label": "e()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_t",
+      "label": "t()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_p",
+      "label": "p()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_m",
+      "label": "m()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_nr",
+      "label": "nr()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_isok",
+      "label": "isOk()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_iserr",
+      "label": "isErr()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_asyncandthen",
+      "label": "asyncAndThen()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_asyncandthrough",
+      "label": "asyncAndThrough()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_asyncmap",
+      "label": "asyncMap()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_unsafeunwrap",
+      "label": "_unsafeUnwrap()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_unsafeunwraperr",
+      "label": "_unsafeUnwrapErr()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_symbol_iterator",
+      "label": "[Symbol.iterator]()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_o",
+      "label": "O()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle_out_option_only_z",
+      "label": "z()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_x",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_v",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_u",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_q",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_x",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_constructor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_fromsafepromise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_frompromise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_fromthrowable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_combine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_combinewithallerrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andtee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_ortee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_maperr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andthen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_orelse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_match",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unwrapor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_safeunwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_then",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_symbol_asynciterator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_y",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_s",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_r",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_r",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_r",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_t",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_p",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_m",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_nr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_constructor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_isok",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_iserr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_maperr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andthen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andtee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_ortee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_orelse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_asyncandthen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_asyncandthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_asyncmap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unwrapor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_match",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_safeunwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unsafeunwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unsafeunwraperr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_symbol_iterator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_constructor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_isok",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_iserr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_maperr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andtee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_ortee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_andthen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_orelse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_asyncandthen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_asyncandthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_asyncmap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unwrapor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_match",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_safeunwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unsafeunwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_unsafeunwraperr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_symbol_iterator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_t",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_o",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_z",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_out_option_only_js",
+      "target": "bundle_out_option_only_p",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_b",
+      "target": "bundle_out_option_only_e",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_q",
+      "target": "bundle_out_option_only_t",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_x",
+      "target": "bundle_out_option_only_t",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_fromsafepromise",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_frompromise",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_map",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthrough",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andtee",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_ortee",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_maperr",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthen",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_orelse",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_match",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_unwrapor",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_safeunwrap",
+      "target": "bundle_out_option_only_u",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_safeunwrap",
+      "target": "bundle_out_option_only_v",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_safeunwrap",
+      "target": "bundle_out_option_only_q",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_safeunwrap",
+      "target": "bundle_out_option_only_x",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_safeunwrap",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_symbol_asynciterator",
+      "target": "bundle_out_option_only_u",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_symbol_asynciterator",
+      "target": "bundle_out_option_only_v",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_symbol_asynciterator",
+      "target": "bundle_out_option_only_iserr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_symbol_asynciterator",
+      "target": "bundle_out_option_only_s",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_e",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_nr",
+      "target": "bundle_out_option_only_then",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_iserr",
+      "target": "bundle_out_option_only_isok",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_map",
+      "target": "bundle_out_option_only_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_map",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_maperr",
+      "target": "bundle_out_option_only_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthen",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthrough",
+      "target": "bundle_out_option_only_map",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthrough",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andtee",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andtee",
+      "target": "bundle_out_option_only_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_ortee",
+      "target": "bundle_out_option_only_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_orelse",
+      "target": "bundle_out_option_only_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncandthen",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncandthrough",
+      "target": "bundle_out_option_only_map",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncandthrough",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncmap",
+      "target": "bundle_out_option_only_fromsafepromise",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncmap",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_match",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_map",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_maperr",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_maperr",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthrough",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andtee",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_ortee",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_ortee",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_andthen",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_orelse",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncandthen",
+      "target": "bundle_out_option_only_s",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncandthrough",
+      "target": "bundle_out_option_only_s",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_asyncmap",
+      "target": "bundle_out_option_only_s",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_match",
+      "target": "bundle_out_option_only_e",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_safeunwrap",
+      "target": "bundle_out_option_only_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_p",
+      "target": "bundle_out_option_only_z",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_p",
+      "target": "bundle_out_option_only_t",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_p",
+      "target": "bundle_out_option_only_r",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "bundle_out_option_only_p",
+      "target": "bundle_out_option_only_o",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "bundle_out_option_only_b",
+      "callee": "next",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_b",
+      "callee": "apply",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_x",
+      "callee": "call",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_u",
+      "callee": "apply",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_u",
+      "callee": "create",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_u",
+      "callee": "c",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_u",
+      "callee": "c",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_u",
+      "callee": "c",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_x",
+      "callee": "call",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_x",
+      "callee": "n[Symbol.iterator]",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_frompromise",
+      "callee": "catch",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_combine",
+      "callee": "rr",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_combinewithallerrors",
+      "callee": "er",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_y",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_s",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_t",
+      "callee": "N",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_nr",
+      "callee": "next",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_nr",
+      "callee": "n",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_safeunwrap",
+      "callee": "(function*(){return r})",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_unsafeunwraperr",
+      "callee": "I",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_safeunwrap",
+      "callee": "(function*(){throw yield m(r),new Error(\"Do not use this generator out of `safeTry`\")})",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    },
+    {
+      "caller_nid": "bundle_out_option_only_unsafeunwrap",
+      "callee": "I",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-out\\option-only.js",
+      "source_location": "L1"
+    }
+  ]
+}

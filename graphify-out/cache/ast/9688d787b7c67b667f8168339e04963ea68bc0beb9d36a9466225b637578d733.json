@@ -1,0 +1,600 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "label": "ops.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "option_ops_issome",
+      "label": "isSome()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "option_ops_isnone",
+      "label": "isNone()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "option_ops_map",
+      "label": "map()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "option_ops_andthen",
+      "label": "andThen()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L35"
+    },
+    {
+      "id": "option_ops_getorelse",
+      "label": "getOrElse()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L47"
+    },
+    {
+      "id": "option_ops_getornull",
+      "label": "getOrNull()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L54"
+    },
+    {
+      "id": "option_ops_toresult",
+      "label": "toResult()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L69"
+    },
+    {
+      "id": "option_ops_filter",
+      "label": "filter()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L76"
+    },
+    {
+      "id": "option_ops_or",
+      "label": "or()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L86"
+    },
+    {
+      "id": "option_ops_orelse",
+      "label": "orElse()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L93"
+    },
+    {
+      "id": "option_ops_flatten",
+      "label": "flatten()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L100"
+    },
+    {
+      "id": "option_ops_zip",
+      "label": "zip()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L107"
+    },
+    {
+      "id": "option_ops_zipwith",
+      "label": "zipWith()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L114"
+    },
+    {
+      "id": "option_ops_tap",
+      "label": "tap()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L125"
+    },
+    {
+      "id": "option_ops_unwrap",
+      "label": "unwrap()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L133"
+    },
+    {
+      "id": "option_ops_expect",
+      "label": "expect()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L141"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "neverthrow",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "c_arbeit_ts_prelude_src_option_types_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_types_none",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_types_some",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_types_none",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_types_option",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_types_some",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_issome",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_isnone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_andthen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_getorelse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_getornull",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_toresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_filter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_or",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_orelse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_flatten",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_zip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_zipwith",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_tap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_unwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "target": "option_ops_expect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_map",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_andthen",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_getorelse",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_getornull",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_toresult",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_filter",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_or",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_orelse",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_flatten",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_zip",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_zipwith",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_tap",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_unwrap",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "option_ops_expect",
+      "target": "option_ops_issome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L142",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "option_ops_map",
+      "callee": "some",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "option_ops_map",
+      "callee": "fn",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "option_ops_map",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "option_ops_andthen",
+      "callee": "fn",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "option_ops_andthen",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "option_ops_toresult",
+      "callee": "ok",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "option_ops_toresult",
+      "callee": "err",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "option_ops_filter",
+      "callee": "predicate",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "option_ops_filter",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "option_ops_orelse",
+      "callee": "fn",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "option_ops_flatten",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L101"
+    },
+    {
+      "caller_nid": "option_ops_zip",
+      "callee": "some",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "option_ops_zip",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "option_ops_zipwith",
+      "callee": "some",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "option_ops_zipwith",
+      "callee": "fn",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "option_ops_zipwith",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "option_ops_tap",
+      "callee": "fn",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\ops.ts",
+      "source_location": "L126"
+    }
+  ]
+}

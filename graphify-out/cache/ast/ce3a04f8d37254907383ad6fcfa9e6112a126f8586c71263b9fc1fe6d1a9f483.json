@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_option_types_ts",
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "option_types_some",
+      "label": "Some",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L2"
+    },
+    {
+      "id": "option_types_none",
+      "label": "None",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "option_types_option",
+      "label": "Option",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_option_types_ts",
+      "target": "option_types_some",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_types_ts",
+      "target": "option_types_none",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_types_ts",
+      "target": "option_types_option",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_types_ts",
+      "target": "option_types_some",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_option_types_ts",
+      "target": "option_types_none",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\option\\types.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

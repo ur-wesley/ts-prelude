@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_match_option_ts",
+      "label": "option.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "match_option_optionsome",
+      "label": "optionSome()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "match_option_optionnone",
+      "label": "optionNone()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "match_option_o",
+      "label": "O",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "ts_pattern",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "c_arbeit_ts_prelude_src_option_types_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "option_types_none",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "option_types_some",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "match_option_optionsome",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "match_option_optionnone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_match_option_ts",
+      "target": "match_option_o",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "match_option_optionsome",
+      "callee": "when",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L6"
+    },
+    {
+      "caller_nid": "match_option_optionnone",
+      "callee": "when",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\match\\option.ts",
+      "source_location": "L16"
+    }
+  ]
+}

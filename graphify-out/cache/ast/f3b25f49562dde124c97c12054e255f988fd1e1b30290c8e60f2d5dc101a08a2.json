@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_scripts_bundle_fixtures_data_map_only_ts",
+      "label": "data-map-only.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-fixtures\\data-map-only.ts",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_fixtures_data_map_only_ts",
+      "target": "c_arbeit_ts_prelude_dist_data_map_js",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-fixtures\\data-map-only.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_fixtures_data_map_only_ts",
+      "target": "data_map_map",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-fixtures\\data-map-only.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "label": "resource.test.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_resource_test_cleanup",
+      "label": "cleanup",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "tests_resource_test_resource",
+      "label": "resource",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "tests_resource_test_dispose",
+      "label": "dispose",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "tests_resource_test_out",
+      "label": "out",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L21"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "c_arbeit_ts_prelude_src_resource_index_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "resource_index_defer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "resource_index_using",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "resource_index_usingresource",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_cleanup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_resource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_resource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_resource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_out",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_resource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_resource_test_ts",
+      "target": "tests_resource_test_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\resource.test.ts",
+      "source_location": "L38",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "label": "bundle-check.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_bundle_check_log",
+      "label": "log",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "scripts_bundle_check_fixturesdir",
+      "label": "fixturesDir",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "scripts_bundle_check_outdir",
+      "label": "outDir",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "scripts_bundle_check_optiononly",
+      "label": "optionOnly",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "scripts_bundle_check_datamaponly",
+      "label": "dataMapOnly",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "scripts_bundle_check_bundlesize",
+      "label": "bundleSize()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "consola",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "esbuild",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "scripts_bundle_check_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "scripts_bundle_check_fixturesdir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "scripts_bundle_check_outdir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "scripts_bundle_check_optiononly",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "scripts_bundle_check_datamaponly",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_scripts_bundle_check_ts",
+      "target": "scripts_bundle_check_bundlesize",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "scripts_bundle_check_bundlesize",
+      "callee": "build",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "scripts_bundle_check_bundlesize",
+      "callee": "readFileSync",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\scripts\\bundle-check.ts",
+      "source_location": "L38"
+    }
+  ]
+}

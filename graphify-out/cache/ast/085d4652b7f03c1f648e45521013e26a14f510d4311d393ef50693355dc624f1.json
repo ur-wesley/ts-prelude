@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_record_index_ts",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "record_index_copy",
+      "label": "copy()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "record_index_evolvechanges",
+      "label": "EvolveChanges",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "record_index_update",
+      "label": "update()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "record_index_updatepath",
+      "label": "updatePath()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L18"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_record_index_ts",
+      "target": "remeda",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_record_index_ts",
+      "target": "record_index_copy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_record_index_ts",
+      "target": "record_index_evolvechanges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_record_index_ts",
+      "target": "record_index_update",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_record_index_ts",
+      "target": "record_index_updatepath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "record_index_update",
+      "callee": "evolve",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "record_index_updatepath",
+      "callee": "setPath",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\record\\index.ts",
+      "source_location": "L23"
+    }
+  ]
+}

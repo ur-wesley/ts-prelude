@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "label": "adapters.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "iter_adapters_fromarray",
+      "label": "fromArray()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "iter_adapters_fromoption",
+      "label": "fromOption()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "iter_adapters_fromresult",
+      "label": "fromResult()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "neverthrow",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "c_arbeit_ts_prelude_src_option_types_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "option_types_option",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "option_ops_issome",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "c_arbeit_ts_prelude_src_iter_core_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "iter_core_fromiterable",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "iter_adapters_fromarray",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "iter_adapters_fromoption",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_iter_adapters_ts",
+      "target": "iter_adapters_fromresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "iter_adapters_fromarray",
+      "callee": "fromIterable",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L8"
+    },
+    {
+      "caller_nid": "iter_adapters_fromoption",
+      "callee": "fromIterable",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "iter_adapters_fromoption",
+      "callee": "isSome",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "iter_adapters_fromresult",
+      "callee": "fromIterable",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "iter_adapters_fromresult",
+      "callee": "isOk",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\iter\\adapters.ts",
+      "source_location": "L18"
+    }
+  ]
+}

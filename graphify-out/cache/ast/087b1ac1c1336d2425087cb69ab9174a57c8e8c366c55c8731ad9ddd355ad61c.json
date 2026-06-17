@@ -1,0 +1,227 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "wire_index_wireerror",
+      "label": "WireError",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "wire_index_wireoutput",
+      "label": "WireOutput",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "wire_index_wirefactoryfn",
+      "label": "WireFactoryFn",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L17"
+    },
+    {
+      "id": "wire_index_wiregraph",
+      "label": "WireGraph",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "wire_index_resolved",
+      "label": "Resolved",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L21"
+    },
+    {
+      "id": "wire_index_disposemap",
+      "label": "DisposeMap",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L25"
+    },
+    {
+      "id": "wire_index_wireoptions",
+      "label": "WireOptions",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L29"
+    },
+    {
+      "id": "wire_index_wireresolver",
+      "label": "WireResolver",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L33"
+    },
+    {
+      "id": "wire_index_isresult",
+      "label": "isResult()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L38"
+    },
+    {
+      "id": "wire_index_toresult",
+      "label": "toResult()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L49"
+    },
+    {
+      "id": "wire_index_wire",
+      "label": "wire()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "neverthrow",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wireerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wireerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wireoutput",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wirefactoryfn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wiregraph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_resolved",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_disposemap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wireoptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wireresolver",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_isresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_toresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_wire_index_ts",
+      "target": "wire_index_wire",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "wire_index_toresult",
+      "target": "wire_index_isresult",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L50",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "wire_index_toresult",
+      "callee": "ok",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\wire\\index.ts",
+      "source_location": "L50"
+    }
+  ]
+}

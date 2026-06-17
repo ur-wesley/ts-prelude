@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "label": "combine.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "result_combine_traverse",
+      "label": "traverse()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "result_combine_sequence",
+      "label": "sequence()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "result_combine_partitionresult",
+      "label": "partitionResult()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L50"
+    },
+    {
+      "id": "result_combine_partitionmap",
+      "label": "partitionMap()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L68"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "neverthrow",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "c_arbeit_ts_prelude_src_option_types_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "option_types_option",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "c_arbeit_ts_prelude_src_option_ops_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "option_ops_issome",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "result_combine_traverse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "result_combine_sequence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "result_combine_partitionresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "target": "result_combine_partitionmap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "result_combine_sequence",
+      "target": "result_combine_traverse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "result_combine_partitionmap",
+      "target": "result_combine_partitionresult",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L72",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "result_combine_traverse",
+      "callee": "fn",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L21"
+    },
+    {
+      "caller_nid": "result_combine_traverse",
+      "callee": "isErr",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "result_combine_traverse",
+      "callee": "err",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "result_combine_traverse",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "result_combine_traverse",
+      "callee": "ok",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "result_combine_partitionresult",
+      "callee": "isOk",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "result_combine_partitionresult",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "result_combine_partitionresult",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "result_combine_partitionmap",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "C:\\Arbeit\\ts-prelude\\src\\result\\combine.ts",
+      "source_location": "L72"
+    }
+  ]
+}

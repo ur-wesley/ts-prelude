@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "label": "result.test.ts",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_result_test_parse",
+      "label": "parse()",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "tests_result_test_okresult",
+      "label": "okResult",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L28"
+    },
+    {
+      "id": "tests_result_test_errresult",
+      "label": "errResult",
+      "file_type": "code",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "vitest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "c_arbeit_ts_prelude_src_result_index_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_index_ok",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_index_err",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_index_matchresult",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_index_traverse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_index_sequence",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_index_partitionresult",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "c_arbeit_ts_prelude_src_result_combine_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "result_combine_traverseoption",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "c_arbeit_ts_prelude_src_option_index_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "option_index_some",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "option_index_none",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "tests_result_test_parse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "tests_result_test_okresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "tests_result_test_errresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "tests_result_test_okresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "tests_result_test_errresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "c_arbeit_ts_prelude_tests_result_test_ts",
+      "target": "tests_result_test_parse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "tests_result_test_parse",
+      "callee": "ok",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "tests_result_test_parse",
+      "callee": "err",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "tests_result_test_parse",
+      "callee": "some",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "tests_result_test_parse",
+      "callee": "none",
+      "is_member_call": false,
+      "source_file": "C:\\Arbeit\\ts-prelude\\tests\\result.test.ts",
+      "source_location": "L49"
+    }
+  ]
+}
