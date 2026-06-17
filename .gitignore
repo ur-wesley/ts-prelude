@@ -4,3 +4,4 @@ coverage/
 *.tsbuildinfo
 scripts/bundle-out/
 scripts/bundle-fixtures/
+graphify-out/
