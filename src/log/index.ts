@@ -11,8 +11,6 @@ import { createConsola, type ConsolaInstance } from "consola";
  * logger.withTag("parse").debug({ input: "hi" });
  * ```
  */
-export const logger: ConsolaInstance = createConsola({
-  defaults: { tag: "ts-prelude" },
-});
+export const logger: ConsolaInstance = createConsola();
 
 export { createConsola, type ConsolaInstance } from "consola";
