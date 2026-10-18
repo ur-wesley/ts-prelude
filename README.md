@@ -230,7 +230,8 @@ bun install
 bun run build        # tsdown — 1:1 source→dist ESM
 bun test             # vitest + type tests
 bun run test:coverage # vitest with 100% coverage thresholds
-bun run check        # full CI gate (same as pre-push hook)
+bun check            # native typecheck (bun >=1.4.3, same as typecheck)
+bun run verify       # full CI gate (same as pre-push hook)
 bun run prepare      # install lefthook git hooks (runs on bun install)
 bun run lint         # oxlint type-aware (--type-aware --type-check via oxlint-tsgolint)
 bun run lint:fix     # oxlint --fix (type-aware)
@@ -238,6 +239,8 @@ bun run format       # oxfmt
 bun run format:check # oxfmt --check
 bun run bundle-check # esbuild tree-shaking verification
 ```
+
+> Requires `bun >=1.4.3` (see `engines`). `typecheck:tsc` (`tsc --noEmit`) is kept as a parity fallback.
 
 ### Git hooks (Lefthook)
 
@@ -248,7 +251,7 @@ Hooks install automatically via `bun install` (`prepare` → `lefthook install`)
 | **pre-commit** | `format:check`                                                                             |
 | **pre-push**   | `typecheck`, `format:check`, `lint`, `test`, `build`, `bundle-check` (parallel where safe) |
 
-Manual run: `bunx lefthook run pre-push --force --all-files` (or `bun run check`)
+Manual run: `bunx lefthook run pre-push --force --all-files` (or `bun run verify`)
 
 ## Architecture
 

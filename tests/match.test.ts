@@ -64,7 +64,7 @@ describe("match", () => {
     expect(whenMatch({ _tag: "a" }, { _: () => "fallback" })).toBe("fallback");
     type Shape = { _tag: "b"; n: number };
     expect(
-      whenMatch({ _tag: "b", n: 2 } as Shape, {
+      whenMatch({ _tag: "b", n: 2 } satisfies Shape, {
         b: (v) => v.n,
         _: () => 0,
       }),

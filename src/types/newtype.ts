@@ -16,8 +16,7 @@ export const brand = <T, B extends string>(value: T): Brand<T, B> =>
   value as Brand<T, B>;
 
 /** Remove a compile-time brand. */
-export const unbrand = <T, B extends string>(value: Brand<T, B>): T =>
-  value as T;
+export const unbrand = <T, B extends string>(value: Brand<T, B>): T => value;
 
 /**
  * Brand a value when `predicate` passes; otherwise return {@link Err}.

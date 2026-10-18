@@ -25,7 +25,7 @@ jobs:
         run: npm pkg set version="${GITHUB_REF#refs/tags/v}"
 
       - name: Verify
-        run: bun run check
+        run: bun run verify
 
       - name: Publish to npm
         run: bun publish --access public --ignore-scripts

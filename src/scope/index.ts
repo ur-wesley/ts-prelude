@@ -88,7 +88,7 @@ export function apply<T, E>(
     }
   }
   fn(value as T);
-  return value as T;
+  return value;
 }
 
 /**
